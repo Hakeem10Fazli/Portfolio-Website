@@ -1,81 +1,44 @@
-import blog1 from '../img/blogs/blog1.svg';
-import blog2 from '../img/blogs/blog2.svg';
-import blog3 from '../img/blogs/blog3.svg';
-import blog4 from '../img/blogs/blog4.svg';
-import blog5 from '../img/blogs/blog5.svg';
+import blog1 from '../img/blogs/blog1.jpg';
+import blog2 from '../img/blogs/blog2.jpg';
+import blog3 from '../img/blogs/blog3.jpg';
+import blog4 from '../img/blogs/blog4.jpg';
+import blog5 from '../img/blogs/blog5.jpg';
 
 const blogs = [
     {
         id: 1,
         image: blog1,
-        title: 'UI/UX Design Starter with Figma',
-        link: 'https://www.facebook.com/',
-        date : '21',
-        month: 'Mar',
-        year: '2020'
+        title: 'Water Quality Monitoring Mobile Application',
+        link: 'https://github.com/thimodprbasha/water_quality_predictions_using_IOT',
+        
     },
     {
         id: 2,
         image: blog2,
-        title: 'UI/UX Design Starter with Figma',
-        link: 'https://www.facebook.com/',
-        date : '09',
-        month: 'Dec',
-        year: '2019'
+        title: 'Tourism Website',
+        link: 'https://github.com/Hakeem10Fazli/Travel-Ceylon-Website',
+       
     },
     {
         id: 3,
         image: blog3,
-        title: 'UI/UX Design Starter with Figma',
-        link: 'https://www.facebook.com/',
-        date : '15',
-        month: 'Jun',
-        year: '2018'
+        title: 'Football League Management System',
+        link: 'https://github.com/Hakeem10Fazli/Premiere-League-Manager',
+        
     },
     {
         id: 4,
         image: blog4,
-        title: 'UI/UX Design Starter with Figma',
-        link: 'https://www.facebook.com/',
-        date : '04',
-        month: 'Aug',
-        year: '2020'
+        title: 'Real Estate Website',
+        link: 'https://github.com/Hakeem10Fazli/Real-Estate-Website',
+      
     },
     {
         id: 5,
         image: blog5,
-        title: 'UI/UX Design Starter with Figma',
-        link: 'https://www.facebook.com/',
-        date : '09',
-        month: 'Sep',
-        year: '2019'
-    },
-    {
-        id: 6,
-        image: blog5,
-        title: 'UI/UX Design Starter with Figma',
-        link: 'https://www.facebook.com/',
-        date : '09',
-        month: 'Sep',
-        year: '2019'
-    },
-    {
-        id: 7,
-        image: blog3,
-        title: 'Test Blogs data1',
-        link: 'https://www.facebook.com/',
-        date : '09',
-        month: 'Sep',
-        year: '2019'
-    },
-    {
-        id: 8,
-        image: blog1,
-        title: 'Test Blogs data2',
-        link: 'https://www.facebook.com/',
-        date : '09',
-        month: 'Sep',
-        year: '2019'
+        title: 'Train Booking System',
+        link: 'https://github.com/Hakeem10Fazli/Train-Booking-System',
+       
     }
 ];
 

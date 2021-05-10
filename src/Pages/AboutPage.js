@@ -12,33 +12,23 @@ function AboutPage() {
         <div className="AboutPage">
             <Tittle title={'About Me'} span={'About Me'} />
             <ImageSection />
+
+         
             <Tittle title={'My Skills'} span={'My Skills'} />
             <div className="skillsContainer">
+                <SkillsSection skill={'Python'} progress={'50%'} width={'50%'} />
+                <SkillsSection skill={'Java'} progress={'60%'} width={'60%'} />
                 <SkillsSection skill={'Javascript'} progress={'60%'} width={'60%'} />
-                <SkillsSection skill={'Typescript'} progress={'30%'} width={'30%'} />
                 <SkillsSection skill={'React Js'} progress={'70%'} width={'70%'} />
-                <SkillsSection skill={'Node Js'} progress={'80%'} width={'80%'} />
-                <SkillsSection skill={'Python'} progress={'90%'} width={'90%'} />
-                <SkillsSection skill={'Lua'} progress={'40%'} width={'40%'} />
-                <SkillsSection skill={'Java'} progress={'80%'} width={'80%'} />
-                <SkillsSection skill={'Web Design'} progress={'25%'} width={'25%'} />
-                <SkillsSection skill={'UI/Ux Design'} progress={'76%'} width={'76%'} />
+                <SkillsSection skill={'Web Design'} progress={'80%'} width={'80%'} />
+                <SkillsSection skill={'UI/Ux Design'} progress={'65%'} width={'65%'} />
+                <SkillsSection skill={'Adobe Photoshop'} progress={'70%'} width={'70%'} />
+                <SkillsSection skill={'Adobe Premiere Pro'} progress={'75%'} width={'75%'} />
+
+
             </div>
 
-            <Tittle title={'Services'} span={'Services'} />
-            <div className="servives-container">
-                <ServicesSection image={design} title={'Web design'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
-                />
-                <ServicesSection image={intelligence} title={'Artificial Intelligence'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
-                />
-                <ServicesSection image={gamedev} title={'Game Development'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
-                />
-
-                
-            </div>
+          
 
         </div>
     )

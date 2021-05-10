@@ -7,6 +7,7 @@ function Tittle({title, span}) {
                 {title}
                 <span> {span}</span>
             </h3>
+            
         </div>
     )
 }

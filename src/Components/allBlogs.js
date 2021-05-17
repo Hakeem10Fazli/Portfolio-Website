@@ -33,13 +33,7 @@ const blogs = [
         link: 'https://github.com/Hakeem10Fazli/Real-Estate-Website',
       
     },
-    {
-        id: 5,
-        image: blog5,
-        title: 'Train Booking System',
-        link: 'https://github.com/Hakeem10Fazli/Train-Booking-System',
-       
-    }
+ 
 ];
 
 export default blogs;

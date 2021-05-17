@@ -9,7 +9,7 @@ function ContactPage() {
     return (
         <div>
             <div className="title">
-                <Tittle title={'About Me'} span={'About Me'} />
+                <Tittle title={'Contact'} span={'Contact'} />
             </div>
             <div className="ContactPage">
                 

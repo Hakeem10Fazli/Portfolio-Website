@@ -1,5 +1,7 @@
 import React from 'react';
 import about from '../img/about.jpg';
+import { Link } from 'react-router-dom';
+
 
 function ImageSection() {
     return (
@@ -30,7 +32,13 @@ function ImageSection() {
 
                     </div>
                 </div>
-                <button className="btn">Download Cv</button>
+
+                
+
+                <form method="get" action="/file/Hakeem Resume.pdf">
+                <button  className="btn" >Download!</button>
+                </form>
+                                    
             </div>
         </div>
     )
